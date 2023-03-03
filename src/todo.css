@@ -1,0 +1,99 @@
+body {
+    background-color: gray;
+    color: white;
+    box-sizing: border-box;
+    font-family: monospace;
+    cursor: pointer;
+}
+form {
+    position: relative;
+    border-radius: 10px;
+    height: auto;
+    padding: 30px;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+    background: linear-gradient(#2e2929 , lightgray );
+    box-shadow: 3px 3px 3px 3px lightgray;
+}
+form:hover {
+    background: linear-gradient(lightgray ,  #2e2929 );
+}
+h2 {
+    font-size: 30px;
+}
+input {
+    width: 70%;
+    height: 30px;
+    text-align: center;
+    font-family: monospace;
+    outline: none;
+    background-color: darkgray;
+    color: white;
+    border: none;
+}
+button {
+    width: 25%;
+    height: 34px;
+    font-family: monospace;
+    padding: 7px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: none;
+    color: aliceblue;
+    background: linear-gradient(lightgray , #2e2929);
+}
+button:hover {
+    transition: .5s;
+    color: aliceblue;
+    width: 27%;
+    background: linear-gradient(#2e2929 , lightgray );
+}
+ul {
+    background: linear-gradient(lightgray , #2e2929);
+    border-radius: 10px;
+    height: auto;
+    padding: 30px;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+    box-shadow: 3px 3px 3px 3px lightgray;
+}
+ul:hover {
+    background: linear-gradient(#2e2929 , lightgray );
+}
+li {
+    list-style-type: square;
+    padding: 7px;
+    margin-top: 10px;
+}
+.littleTrash {
+    float: right;
+}
+.littleTrash:hover {
+    background-color: lightgray;
+    color: black;
+    border-radius: 10px;
+}
+
+.tasksCounter {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.mainTrash {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
+.mainTrash:hover {
+    color: black;
+    border-radius: 10px;
+}
+.noTodosText {
+    text-align: center;
+    margin-top: 30px;
+}
